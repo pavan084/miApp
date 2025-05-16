@@ -11,7 +11,7 @@ export default function Home() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form submitted:", form);
-    setForm({ username: "", email: "" }); // Reset form after submission
+    setForm({ username: "", email: "" }); 
     alert("Form submitted successfully!");
   };
 
